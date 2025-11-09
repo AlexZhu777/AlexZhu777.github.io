@@ -3,7 +3,7 @@
 # -- Configurações Gerais do Site --
 title: "Alex Zhu - Portfólio"
 description: "[Uma breve descrição sua, ex: Focado em DevOps e Cloud]"
-url: "https://AlexZhu777.github.io" # IMPORTANTE: Coloque seu usuário aqui
+url: "https://AlexZhu777.github.io"
 # baseurl: "" # Deixe vazio para repositórios do tipo username.github.io
 
 # -- Configuração do Tema --
@@ -18,7 +18,7 @@ author:
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin" # Ícone do Font Awesome
-      url: "www.linkedin.com/in/alex-zhu-8a30702b5"
+      url: "https://www.linkedin.com/in/alex-zhu-8a30702b5"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/AlexZhu777"
