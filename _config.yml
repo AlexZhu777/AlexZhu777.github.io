@@ -1,0 +1,60 @@
+# Arquivo: _config.yml
+
+# -- Configurações Gerais do Site --
+title: "Alex Zhu - Portfólio"
+description: "[Uma breve descrição sua, ex: Focado em DevOps e Cloud]"
+url: "https://AlexZhu777.github.io" # IMPORTANTE: Coloque seu usuário aqui
+# baseurl: "" # Deixe vazio para repositórios do tipo username.github.io
+
+# -- Configuração do Tema --
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "air" # "air" é um visual limpo. Outros: "dark", "default", "dirt"
+
+# -- Configuração do Autor (Aparece na barra lateral) --
+author:
+  name: "Alex Zhu" # Seu nome
+  avatar: "/assets/images/bio-photo.jfif" # Caminho para sua foto
+  bio: "Estudante de Sistemas de Informação na Universidade de São Paulo (USP). <br> Estagiário de Infraestrutura TI no Bradesco." # Pode usar HTML
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin" # Ícone do Font Awesome
+      url: "www.linkedin.com/in/alex-zhu-8a30702b5"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/AlexZhu777"
+
+# -- Navegação Principal (Links no topo) --
+# Onde as pessoas vão clicar
+main:
+  - title: "Portfólio"
+    url: /portfolio/
+  - title: "Sobre Mim"
+    url: /about/
+  - title: "Certificações"
+    url: /certificacoes/
+
+# -- Configurações de Build --
+# O Jekyll vai procurar suas páginas aqui
+include: ["_pages"]
+
+# Não mude isso, é como o MM organiza os posts
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "single"
+      author_profile: true
+  # Configuração padrão para todas as suas "páginas"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "single"
+      author_profile: true
+
+# Plugins (necessários para o tema)
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-include-cache

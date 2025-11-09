@@ -1,18 +1,8 @@
 ---
-# O "Front Matter" (cabeçalho) é importante, mesmo que vazio.
-# Ele diz ao Jekyll para processar este arquivo.
+layout: splash # Este é um layout especial do tema para homepages
+permalink: /
 ---
 
-# Bem-vindo ao meu Portfólio!
+# Olá, eu sou Alex Zhu
 
-Meu nome é Alex...
-
-## Meus Projetos
-
-* **Projeto 1:** Uma breve descrição do que ele faz.
-* **Projeto 2:** Outra descrição.
-
-## Habilidades
-* Python
-* Git
-* Azure
+Bem-vindo ao meu portfólio. Sou um profissional focado em...
